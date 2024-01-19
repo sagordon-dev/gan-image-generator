@@ -1,0 +1,56 @@
+# .gitignore
+
+# Virtual Environment
+/.venv
+
+# Python files
+*.pyc
+__pycache__/
+
+# VS Code specific files
+.vscode/
+settings.json
+*.code-workspace
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+
+# Environment variables file
+.env
+
+# User-specific files
+*.suo
+*.user
+*.sln.docstates
+
+# Other generated files
+*.log
+*.seed
+*.cache
+
+# Directories
+__pycache__/
+.build/
+
+# Compiled files
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Package files
+*.egg
+*.egg-info/
+dist/
+build/
+venv/
+*.whl
+*.manifest
+
+# IDE files
+.idea/
+
+# Backup files
+*~
